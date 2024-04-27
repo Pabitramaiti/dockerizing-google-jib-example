@@ -6,3 +6,10 @@ https://www.youtube.com/watch?v=dKXx4O_GIyo&list=PLVz2XdJiJQxzMiFDnwxUDxmuZQU3ig
 mvn compile jib:build
 mvn clean compile jib:build
 
+
+git init
+git checkout -b main
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Pabitramaiti/dockerizing-google-jib-example.git
+git push -u origin main
